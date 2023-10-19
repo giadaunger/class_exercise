@@ -1,3 +1,5 @@
+from car_class import Car
+
 class Animal:
     def __init__(self, animal, name):
         self.animal = animal

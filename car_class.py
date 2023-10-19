@@ -1,9 +1,12 @@
 class Car:
+
+    wheels = 4 # Class variable
+
     def __init__(self, make, model, year, color) -> None:
-        self.make = make
-        self.model = model
-        self.year = year
-        self.color = color
+        self.make = make     # Instance of a variable
+        self.model = model   # Instance of a variable
+        self.year = year     # Instance of a variable
+        self.color = color   # Instance of a variable
 
     def drive(self):
         print("This car is driving")

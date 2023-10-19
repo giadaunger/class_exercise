@@ -11,3 +11,6 @@ print(car1.wheels)
 
 car1.drive()
 car1.stop()
+
+car1.wheels = 2
+print(f"{car1.make} has {car1.wheels} wheels")
